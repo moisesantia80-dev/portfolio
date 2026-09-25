@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Inscription | Plateforme scolaire</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="accueil-scolaire">
+
+        <div class="contenu">
+
+            <h1>📝 Créer un compte</h1>
+
+            <p>
+                Sélectionnez votre profil pour commencer votre inscription.
+            </p>
+
+            <div class="choix">
+
+                <button class="bouton inscription profil" data-profil="parent">
+                    👨‍👩‍👧 Parent
+                </button>
+
+                <button class="bouton inscription profil" data-profil="enseignant">
+                    👨‍🏫 Enseignant
+                </button>
+
+                <button class="bouton inscription profil" data-profil="etudiant">
+                    🎓 Étudiant
+                </button>
+
+            </div>
+
+            <a href="connexion.html" class="bouton connexion">
+                🔐 Se connecter
+            </a>
+            <div id="formulaire-profil"></div>
+
+            <a href="index.html" class="retour-portfolio">
+                ← Retour à l'accueil
+            </a>
+
+        </div>
+
+    </main>
+
+
+    <div id="notification"></div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

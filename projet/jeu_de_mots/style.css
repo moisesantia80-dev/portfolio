@@ -1,0 +1,230 @@
+/* ==============================
+   STYLE GENERAL
+============================== */
+
+body {
+
+    font-family:"Roboto", sans-serif;
+
+    background: #091221;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 50px;
+
+    margin: 0;
+
+}
+
+
+/* ==============================
+   CONTENEUR DU JEU
+============================== */
+
+.jeu {
+
+    max-width: 600px;
+
+    margin: auto;
+
+    padding: 35px;
+
+    background:#00496E;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
+}
+
+
+/* ==============================
+   TITRE
+============================== */
+
+h1 {
+
+    margin-bottom: 10px;
+
+}
+
+
+/* ==============================
+   INFORMATIONS DU JEU
+============================== */
+
+.infos {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+    margin: 25px 0;
+
+}
+
+
+.stile{
+    font-family:"Orbitron", sans-serif;
+}
+
+/* ==============================
+   MOT MELANGE
+============================== */
+
+#motMelange {
+
+    font-size: 40px;
+
+    font-weight: bold;
+
+    letter-spacing: 10px;
+
+    margin: 35px 0;
+
+}
+
+
+/* ==============================
+   CHAMP DE REPONSE
+============================== */
+
+input {
+
+    width: 80%;
+
+    padding: 14px;
+
+    border-radius: 10px;
+
+    border: none;
+
+    font-size: 18px;
+
+    text-align: center;
+
+    outline: none;
+
+    box-sizing: border-box;
+
+}
+
+
+/* ==============================
+   BOUTONS
+============================== */
+
+button {
+
+    margin-top: 15px;
+
+    padding: 12px 25px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #2563eb;
+
+    color: white;
+
+    font-size: 17px;
+
+    cursor: pointer;
+
+}
+
+
+/* Effet au survol */
+
+button:hover {
+
+    background: #1d4ed8;
+
+}
+
+
+/* Bouton désactivé */
+
+button:disabled {
+
+    background: #64748b;
+
+    cursor: not-allowed;
+
+}
+
+
+/* ==============================
+   MESSAGE
+============================== */
+
+#message {
+
+    min-height: 30px;
+
+    margin-top: 20px;
+
+    font-weight: bold;
+
+}
+
+
+/* ==============================
+   RESPONSIVE TELEPHONE
+============================== */
+
+@media (max-width: 600px) {
+
+    body {
+
+        padding: 20px;
+
+    }
+
+
+    .jeu {
+
+        padding: 25px 15px;
+
+    }
+
+
+    #motMelange {
+
+        font-size: 28px;
+
+        letter-spacing: 5px;
+
+    }
+
+
+    .infos {
+
+        flex-direction: column;
+
+        gap: 10px;
+
+    }
+
+
+    input {
+
+        width: 100%;
+
+    }
+
+
+    button {
+
+        width: 100%;
+
+    }
+
+}

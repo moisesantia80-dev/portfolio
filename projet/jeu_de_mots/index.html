@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>🧐Jeu des mots</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <div class="jeu">
+
+        <h1 class="stile">🧠 Trouve le mot</h1>
+
+        <p>Remets les lettres dans le bon ordre !</p>
+
+
+        <div class="infos">
+
+            <div>
+                Niveau :
+                <strong id="niveau">1</strong>
+            </div>
+
+            <div>
+                XP :
+                <strong id="xp">0</strong>
+            </div>
+
+            <div>
+                Grade :
+                <strong id="grade">Débutant</strong>
+            </div>
+
+            <div>
+                ⏱️ Temps :
+                <strong id="temps">15</strong>s
+            </div>
+
+            <div>
+                ❤️ Vies :
+                <strong id="vies">3</strong>
+            </div>
+
+        </div>
+
+
+        <div id="motMelange"></div>
+
+
+        <input
+            type="text"
+            id="reponse"
+            placeholder="Écris le mot"
+            autocomplete="off"
+        >
+
+
+        <br>
+
+
+        <button id="valider">
+            ✅ Valider
+        </button>
+
+
+        <button id="nouvellePartie">
+            🔄 Nouvelle partie
+        </button>
+
+
+        <p id="message"></p>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
