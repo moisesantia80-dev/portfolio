@@ -1,4 +1,4 @@
-/* let nombreSecret = Math.floor(Math.random() * 100) + 1;
+ let nombreSecret = Math.floor(Math.random() * 100) + 1 ;
 
 let bouton = document.querySelector("#deviner");
 
@@ -70,11 +70,12 @@ nouvellePartie.addEventListener("click", function() {
 
     nouvellePartie.disabled = true;
 
-}); */      /* ICI LE NOMBRE SECRET EST CHOISI DE FACON ALLEATOIRE PAR LE PROGRAMME MEME */
+}); 
 
 
 
-let listeNombres = [80,17, 42, 68, 91, 34,64,0,94,33,3,53,77,98];
+
+/* let listeNombres = [80,17, 42, 68, 91, 34,64,0,94,33,3,53,77,98];
 
 let position = 0;
 
@@ -158,4 +159,4 @@ nouvellePartie.addEventListener("click", function() {
 
     nouvellePartie.disabled = true;
 
-});
+}); */

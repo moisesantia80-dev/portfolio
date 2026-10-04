@@ -32,7 +32,7 @@ if (!utilisateur) {
     if (utilisateur.profil === "etudiant") {
 
         contenuProfil.innerHTML = `
-            <h2>🎓 Espace Étudiant</h2>
+            <h2> Espace Étudiant</h2>
 
             <p><strong>Email :</strong> ${utilisateur.email}</p>
 
@@ -50,7 +50,7 @@ if (!utilisateur) {
     if (utilisateur.profil === "enseignant") {
 
         contenuProfil.innerHTML = `
-            <h2>👨‍🏫 Espace Enseignant</h2>
+            <h2> Espace Enseignant</h2>
 
             <p><strong>Email :</strong> ${utilisateur.email}</p>
 
@@ -68,7 +68,7 @@ if (!utilisateur) {
     if (utilisateur.profil === "parent") {
 
         contenuProfil.innerHTML = `
-            <h2>👨‍👩‍👧 Espace Parent</h2>
+            <h2> Espace Parent</h2>
 
             <p><strong>Email :</strong> ${utilisateur.email}</p>
 
