@@ -15,9 +15,9 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    background-color: #c3cfda;
+    background-color: #8aacd6;
    
 }
 
@@ -90,7 +90,7 @@ section h2 {
 ========================= */
 
 #projets {
-     background-color: #ababb1; 
+     background-color: #7db6d4; 
     text-align:center;
 }
 
@@ -446,4 +446,6 @@ footer {
 }
 
 
-
+.style{
+    font-family: 'Poppins', sans-serif;
+}
